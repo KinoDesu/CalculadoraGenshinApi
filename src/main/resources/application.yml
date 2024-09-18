@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: console
+  application:
+    name: "Calculadora Genshin"
+    version: "0.0.1"
+    description: "API Calculadora Genshin"
+  data:
+    h2db:
+      uri: jdbc:h2:~/genshindb
+      user: sa
+      password:
